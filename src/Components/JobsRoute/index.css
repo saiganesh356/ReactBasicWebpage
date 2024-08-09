@@ -1,0 +1,152 @@
+.jobsPage {
+  background-color: #000000;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.searchElement {
+  border: 0px;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Roboto';
+  outline: none;
+  color: #cbd5e1;
+  padding: 5px;
+}
+.search-cont {
+  border: 2px solid #272727;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
+.icon-cont {
+  background-color: #272727;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.hr-line {
+  border: 1px solid #2c364c;
+  font-size: 5px;
+  margin: 20px 0px 10px 0px;
+  width: 95%;
+}
+.line-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.employment {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 20px;
+}
+.unorderedList {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.label-element {
+  color: #cbd5e1;
+  font-weight: 200;
+  font-size: 15px;
+}
+.checkbox-list {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+.input-checkbox {
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.rolesPage {
+  background-color: #000000;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-btn {
+  background-color: transparent;
+  border: 0px;
+}
+.hide-txt {
+  display: none;
+}
+.list-roles {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.failure-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.heading-not {
+  color: #f1f5f9;
+  font-size: 30px;
+}
+.para-not {
+  color: #b6c5ff;
+  font-size: 15px;
+}
+.btn-retry {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 577px) {
+  .search-cont-lg {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) {
+  .jobsPage {
+    width: 25%;
+  }
+  .listOfJobs {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rolesPage {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .search-cont {
+    display: none;
+  }
+  .search-cont-lg {
+    border: 2px solid #272727;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    width: 60%;
+  }
+  .loader-container-lg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.input-cont {
+  align-self: flex-start;
+  width: 70%;
+}
